@@ -1,0 +1,2 @@
+<live-player src="rtmp://live.hkstv.hk.lxdns.com/live/hks" mode="live" autoplay="true" bindstatechange="statechange" binderror="error" style="width: 320px; height: 225px;" />
+ 

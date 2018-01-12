@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/movie/movie",
+    "pages/search/search",
+    "pages/profile/profile",
+    "pages/live/live"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000000",
+    "navigationBarTitleText": "小恶魔电影",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#CCCCCC",
+    "selectedColor": "#000000",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/featured.png",
+        "selectedIconPath": "images/featured-actived.png",
+        "text": "推荐电影"
+      },
+      {
+        "pagePath": "pages/search/search",
+        "iconPath": "images/search.png",
+        "selectedIconPath": "images/search-actived.png",
+        "text": "搜索"
+      },
+      {
+        "pagePath": "pages/live/live",
+        "iconPath": "images/search.png",
+        "selectedIconPath": "images/search-actived.png",
+        "text": "直播"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "iconPath": "images/profile.png",
+        "selectedIconPath": "images/profile-actived.png",
+        "text": "我的"
+      }
+    ]
+  }
+}
